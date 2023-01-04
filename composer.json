@@ -1,0 +1,23 @@
+{
+  "name": "elgigi/matrix",
+  "description": "Matrix",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ElGigi\\Matrix\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ElGigi\\Matrix\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
